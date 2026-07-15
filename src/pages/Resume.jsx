@@ -97,14 +97,14 @@ const Resume = () => {
 
                 <ResumeCard
                   title="Higher Secondary Education"
-                  subTitle="Higher Secondary School (2024 - 2025)"
+                  subTitle="Arihant Acadamy School (2024 - 2025)"
                   result="85%"
                   des="Completed higher secondary education while improving analytical thinking and problem-solving skills."
                 />
 
                 <ResumeCard
                   title="Secondary School"
-                  subTitle="Secondary School (2022 - 2023)"
+                  subTitle=" Gorvement Secondary School (2022 - 2023)"
                   result="89%"
                   des="Completed secondary education with a strong interest in technology and software development."
                 />
