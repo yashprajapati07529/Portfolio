@@ -6,12 +6,9 @@ A modern and fully responsive personal portfolio website built using **React.js*
 
 ## 🌐 Live Demo
 
-🔗 https://your-portfolio-link.vercel.app
+🔗 portfolio-one-mocha-vu322t4ys8.vercel.app
 
 ---
-
-# 📸 Preview
-
 ## 🏠 Hero Section
 
 - Responsive Navigation Bar
