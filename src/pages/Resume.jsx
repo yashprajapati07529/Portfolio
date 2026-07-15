@@ -146,13 +146,68 @@ const Resume = () => {
 
             </div>
           )}
-
         </div>
+
+        {activeTab === "skills" && (
+          <div className="container mx-auto flex  justify-center  mt-20">
+
+            <SkillCard
+              title="Development Skill"
+              skills={[
+                { name: "HTML", value: 90 },
+                { name: "CSS", value: 85 },
+                { name: "JAVASCRIPT", value: 60 },
+                { name: "REACT", value: 80 },
+                { name: "NODE JS", value: 75 },
+              ]}
+            />
+
+          </div>
+        )}
+
         <div className="w-320 h-[2px] bg-black my-8 flex mx-auto mt-20"></div>
       </motion.div>
 
     </section>
+
+
   );
 };
+
+function SkillCard({ title, skills }) {
+  return (
+    <div className=" bg-[#1f2226] rounded-xl p-8 shadow-[10px_10px_20px_#1a1c20,-10px_-10px_20px_#262a2f] hover:-translate-y-2 duration-500 w-1/2 ">
+      <p className="text-[#ff014f] uppercase tracking-[4px] text-sm mb-3">
+        Features
+      </p>
+
+      <h2 className="text-5xl font-bold mb-10">
+        {title}
+      </h2>
+
+      <div className="space-y-8">
+        {skills.map((item) => (
+          <div key={item.name}>
+
+            <div className="flex justify-between mb-3 text-sm uppercase tracking-[2px] text-gray-400">
+              <span>{item.name}</span>
+              <span>{item.value}%</span>
+            </div>
+
+            <div className="w-full h-3 bg-[#181a1d] rounded-full overflow-hidden shadow-inner">
+
+              <div
+                style={{ width: `${item.value}%` }}
+                className="h-full rounded-full bg-gradient-to-r from-[#7d5fff] via-[#cf6fd3] to-[#ff5f6d] transition-all duration-1000"
+              />
+
+            </div>
+
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default Resume;
