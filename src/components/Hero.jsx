@@ -17,7 +17,7 @@ const Hero = () => {
                 <div className='container max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center h-full gap-30 md:gap-20'>
                     <div className='md:w-1/2  mb-10 md:mb-0'>
                         <p className="text-[#f4f5f6] uppercase tracking-[4px] text-sm font-semibold mb-5">
-                           WELCOME TO MY PORTFOLIO
+                            WELCOME TO MY PORTFOLIO
                         </p>
                         <h1 className='text-4xl md:text-6xl font-bold text-white mb-4'>Hi, I'm <span className='text-primary'>Yash Kumar</span></h1>
                         <h2 className='text-3xl md:text-4xl font-bold text-white mb-4'>
@@ -32,7 +32,7 @@ const Hero = () => {
                                 <a href="https://github.com/yashprajapati07529" target="_blank" rel="noopener noreferrer" className='py-3 px-3 bg-dark rounded-sm  transition-colors duration-300 shadow-lg shadow-white/20'>
                                     <FaGithub className='text-3xl text-white hover:text-primary transition-colors duration-300 cursor-pointer' />
                                 </a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className='py-3 px-3 bg-dark rounded-sm  transition-colors duration-300 shadow-lg shadow-white/20'>
+                                <a href="https://www.linkedin.com/in/yash-prajapati-8169643b4/" target="_blank" rel="noopener noreferrer" className='py-3 px-3 bg-dark rounded-sm  transition-colors duration-300 shadow-lg shadow-white/20'>
                                     <FaLinkedin className='text-3xl text-white hover:text-primary transition-colors duration-300 cursor-pointer' />
                                 </a>
                                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className='py-3 px-3 bg-dark rounded-sm  transition-colors duration-300 shadow-lg shadow-white/20'>
@@ -50,7 +50,7 @@ const Hero = () => {
                         />
                     </div>
                 </div>
-            <div className="w-320 h-[2px] bg-black my-8 flex mx-auto mt-20"></div>
+                <div className="w-320 h-[2px] bg-black my-8 flex mx-auto mt-20"></div>
             </motion.div >
         </section>
     )

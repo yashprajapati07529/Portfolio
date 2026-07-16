@@ -30,7 +30,7 @@ const Navbar = () => {
                         <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#ff014f] transition-all duration-300 group-hover:w-full"></span>
                     </a>
 
-                     <a
+                    <a
                         href="#features"
                         className="relative text-white/80 hover:text-[#ff014f] transition-all duration-300 group font-medium"
                     >
@@ -38,7 +38,7 @@ const Navbar = () => {
 
                         <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#ff014f] transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                     <a
+                    <a
                         href="#portfolio"
                         className="relative text-white/80 hover:text-[#ff014f] transition-all duration-300 group font-medium"
                     >
@@ -46,7 +46,7 @@ const Navbar = () => {
 
                         <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#ff014f] transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                     <a
+                    <a
                         href="#resume"
                         className="relative text-white/80 hover:text-[#ff014f] transition-all duration-300 group font-medium"
                     >
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                         <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#ff014f] transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                     <a
+                    <a
                         href="#blog"
                         className="relative text-white/80 hover:text-[#ff014f] transition-all duration-300 group font-medium"
                     >
@@ -62,7 +62,7 @@ const Navbar = () => {
 
                         <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#ff014f] transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                     <a
+                    <a
                         href="#contact"
                         className="relative text-white/80 hover:text-[#ff014f] transition-all duration-300 group font-medium"
                     >

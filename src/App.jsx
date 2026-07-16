@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Blog from "./pages/Blog";
 import Contacts from "./pages/Contacts";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -34,6 +35,8 @@ const App = () => {
       <section id="contact">
         <Contacts />
       </section>
+
+      <Footer />
     </>
   );
 };
